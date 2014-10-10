@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Notes.h"
 
 @interface ViewNotesViewController : UIViewController
+
+@property (nonatomic, strong)Notes *note;
 
 @end

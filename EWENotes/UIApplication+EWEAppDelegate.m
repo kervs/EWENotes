@@ -10,4 +10,8 @@
 
 @implementation UIApplication (EWEAppDelegate)
 
+- (AppDelegate *) eweNotesDelegate {
+    return (AppDelegate *)self.delegate;
+}
+
 @end

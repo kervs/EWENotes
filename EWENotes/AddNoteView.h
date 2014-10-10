@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Notes.h"
 @interface AddNoteView : UIViewController
 
+@property (nonatomic, assign) bool isSaving;
+@property (nonatomic, strong) Notes *note;
 @end
+

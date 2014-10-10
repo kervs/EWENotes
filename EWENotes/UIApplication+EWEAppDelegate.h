@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface UIApplication (EWEAppDelegate)
+
+- (AppDelegate *) eweNotesDelegate;
 
 @end
